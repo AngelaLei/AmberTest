@@ -1,0 +1,15 @@
+Global ignore file
+    git config --global core.excludesfile [File]
+Clear the cache
+    git rm -r --cache .
+Add 
+    git add . 
+Commit
+    git commit -m "Added .gitignore file"
+Delete
+    git rm index.html 
+    rm 'index.html'
+Restore
+    git restore -S .
+Rename 
+    git mv index.html home.html (change from index to home)
